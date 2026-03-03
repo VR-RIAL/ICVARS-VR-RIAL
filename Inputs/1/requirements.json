@@ -1,0 +1,52 @@
+{
+  "house_dimensions": {
+    "width": 40,
+    "length": 40,
+    "unit": "feet",
+    "main_door_direction": "East"
+  },
+  "rooms": [
+    {
+      "name": "bedroom",
+      "count": 3,
+      "type": "bedroom",
+      "features": [
+        "attached_bathroom",
+        "balcony"
+      ],
+      "length": 10,
+      "width": 10
+    },
+    {
+      "name": "bathroom",
+      "count": 3,
+      "type": "bathroom",
+      "length": 5,
+      "width": 5
+    },
+    {
+      "name": "balcony",
+      "count": 3,
+      "type": "outdoor",
+      "length": 5,
+      "width": 4
+    },
+    {
+      "name": "living_room",
+      "type": "living_room",
+      "features": [
+        "skylights",
+        "high_ceiling"
+      ],
+      "length": 15,
+      "width": 10
+    },
+    {
+      "name": "kitchen",
+      "type": "kitchen",
+      "area": 200,
+      "length": 14.14,
+      "width": 14.14
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+```json
+{
+  "house_dimensions": {
+    "width": 40,
+    "length": 40,
+    "unit": "feet",
+    "main_door_direction": "East"
+  },
+  "rooms": [
+    {
+      "name": "bedroom",
+      "count": 3,
+      "type": "bedroom",
+      "features": [
+        "attached_bathroom",
+        "balcony"
+      ],
+      "length": 10,
+      "width": 10
+    },
+    {
+      "name": "bathroom",
+      "count": 3,
+      "type": "bathroom",
+      "length": 5,
+      "width": 5
+    },
+    {
+      "name": "balcony",
+      "count": 3,
+      "type": "outdoor",
+      "length": 5,
+      "width": 4
+    },
+    {
+      "name": "living_room",
+      "type": "living_room",
+      "features": [
+        "skylights",
+        "high_ceiling"
+      ],
+      "length": 15,
+      "width": 10
+    },
+    {
+      "name": "kitchen",
+      "type": "kitchen",
+      "area": 200,
+      "length": 14.14,
+      "width": 14.14
+    }
+  ]
+}
+```
+
+**Explanation:**
+- The house dimensions are set to **40x40 feet** as requested.
+- **3 bedrooms** are included, each with an **attached bathroom** and **balcony**.
+- The **living room** includes **skylights** and a **high ceiling**.
+- The **kitchen** is allocated **200 sq. feet** (dimensions approximated as 14.14x14.14 feet for a square layout).
+- Room dimensions are proportionally distributed within the **1600 sq. feet** total area.
+- The **main door direction** defaults to **East** as no direction was specified.

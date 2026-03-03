@@ -1,0 +1,28 @@
+{
+  "is_valid": true,
+  "errors": [],
+  "warnings": [],
+  "metrics": {
+    "total_rooms": 12,
+    "mean_area": 74.69163333333334,
+    "median_area": 62.5,
+    "min_area": 20.0,
+    "max_area": 199.9396,
+    "std_area": 58.45640267765562,
+    "mean_median_diff_pct": 19.50661333333335,
+    "coefficient_of_variation": 0.7826365560487446,
+    "q1": 23.75,
+    "q3": 102.84,
+    "iqr": 79.09,
+    "outlier_lower_bound": -94.885,
+    "outlier_upper_bound": 221.47500000000002,
+    "outlier_count": 0
+  },
+  "validation_config": {
+    "min_room_area": 15.0,
+    "max_room_area": 2500.0,
+    "max_aspect_ratio": 4,
+    "outlier_iqr_multiplier": 1.5,
+    "area_cv_threshold": 1.5
+  }
+}

@@ -10,7 +10,7 @@ API_URL = "https://api.mistral.ai/v1/chat/completions"
 with open("prompt.txt", "r", encoding="utf-8") as file:
     prompt = file.read()
 
-for i in range(8,9):                                                                        # modify this accordingly
+for i in range(1,2): # initially designed to run for multiple inputs at a time                                                                        # modify this accordingly
     with open(f"Inputs/{i}/input.txt", "r", encoding="utf-8") as file:
         userQuery = file.read()
 
